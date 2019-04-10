@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACP_RailBookRS xmlns="http://www.acprailinternational.com/API/R2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.acprailinternational.com/API/R2 ACP_RailBookRS.xsd" Version="1.001" TimeStamp="2018-12-19T10:05:58" Target="Production">
+	<Success/>
+	<ACPRailPNR PNRLocator="DDDA9D" DateBooked="2018-12-19T00:00:00.0Z" CurrencyISO="USD" Gross="50.0" Commission="0.0" Penalties="0.0" CommissionOnPenalties="0.0" TSC="0.0" Net="50.0" Paid="50.0" Due="0.0" Status="Ticketed" IsCreditSale="true" UseNetPayment="false" Version="0" GrossNoITX="50.0" TSCNoITX="0.0">
+		<POSDetails OutletName="ACP CALL CENTER RN2 (USD)" OutletContact="" Email="ccticket@magma.ca"/>
+		<Passengers>
+			<Passenger Age="-1" Surname="salort" IsLeader="true" ID="18571" GivenName="fred" CountryResidence="CA" NamePrefix="Mr" Nationality="US" PlaceOfBirthCity="Pointe-Claire" PlaceOfBirthCountry="US"/>
+		</Passengers>
+		<BookedResources>
+			<BookedResource IsActive="true" BalanceDue="0.0" IsSubcomponent="false" Penalty="0.0" ResourceStatus="Confirmed" ID="15449" Booker="fsalort" Paid="50.0" CommissionOnPenalty="0.0" GrossFare="50.0" Commission="0.0" TSC="0.0" IsCreditSale="true" PricingOnRequest="false" PricingAccepted="true" BookingOnRequest="false" CancellationOnRequest="false" TicketOption="Etk" ServiceFee="11.56">
+				<PTP>
+					<Journey>
+						<OriginLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+						<DestinationLocation LocationCode="7000075" CodeContext="UIC" Name="York" Country="GB"/>
+						<JourneySegments>
+							<JourneySegment>
+								<TrainSegment SegmentID="16844" DepartureDateTime="2018-12-27T05:45:00.0Z" ArrivalDateTime="2018-12-27T06:45:00.0Z" TrainNumber="0545" JourneyDuration="PT1H" TrainServiceType="Regular" CrossBorder="false" OperatorName="ATOC">
+									<DepartureStation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+									<ArrivalStation LocationCode="7000041" CodeContext="UIC" Name="Leeds" Country="GB"/>
+									<RailAmenities>
+										<RailAmenity Name="TRANSPENNINE"/>
+										<RailAmenity Name="EXPRESS"/>
+									</RailAmenities>
+								</TrainSegment>
+							</JourneySegment>
+							<JourneySegment>
+								<TrainSegment SegmentID="16845" DepartureDateTime="2018-12-27T07:08:00.0Z" ArrivalDateTime="2018-12-27T07:31:00.0Z" TrainNumber="0708" JourneyDuration="PT23M" TrainServiceType="Regular" CrossBorder="false" OperatorName="ATOC">
+									<DepartureStation LocationCode="7000041" CodeContext="UIC" Name="Leeds" Country="GB"/>
+									<ArrivalStation LocationCode="7000075" CodeContext="UIC" Name="York" Country="GB"/>
+									<RailAmenities>
+										<RailAmenity Name="LONDON"/>
+										<RailAmenity Name="NORTH"/>
+										<RailAmenity Name="EASTERN"/>
+										<RailAmenity Name="RAILWAY"/>
+									</RailAmenities>
+									<Seating>
+										<Seat PlaceNumber="65" CarNumber="E" PlaceType="Seat | Standard | Open Coach" PassengerID="18571"/>
+									</Seating>
+								</TrainSegment>
+							</JourneySegment>
+						</JourneySegments>
+					</Journey>
+					<PTPFare FareReference="1" Class="STANDARD" TicketingTimeLimit="2018-12-18T23:59:59.0Z" TicketCount="1" CurrencyCode="USD" ItineraryType="One-Way" IncludesProtectionPlan="false" ProductName="TICKET on DEPARTURE &amp; RESERVATION -ANYTIME via:ANY PERMITTED - Travel is allowed via any permitted route." FareType="Regular" UseAfterTL="2018-12-27" UseByTL="2018-12-26" RouteDescription="via:ANY PERMITTED - Travel is allowed via any permitted route." PaxNameRequested="true" Magic="123" TravelDate="2018-12-27" CommissionGroup="24">
+						<PassengerTypePrices>
+							<PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="50.0" TSC="0.0" TotalSliceAmount="50.0" UnitServiceFee="11.56" TotalServiceFee="11.56"/>
+						</PassengerTypePrices>
+						<TotalPrice Fare="50.0" TSC="0.0" Amount="50.0" Commission="0.0" Net="50.0" ServiceFee="11.56"/>
+						<OriginLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+						<DestinationLocation LocationCode="7000075" CodeContext="UIC" Name="York" Country="GB"/>
+						<SubComponents/>
+						<SalesConditions RefundPolicy="Non-Refundable">
+							<TermsAndConditions MustAcknowledge="true" URL="http://www.acprail.com/railways-terms-and-conditions/TTL-tod-ow-withres-anytime.html"/>
+							<RefundRules>
+								<RefundRule Sequence="1" DateBasis="Issue" WithinDateBasis="P0D" PenaltyRate="100.0" MinimumPenalty="0.0"/>
+							</RefundRules>
+						</SalesConditions>
+						<ProdMarketingName>
+							<![CDATA[<div id="DisplayName">TICKET on DEPARTURE & RESERVATION -ANYTIME</div>]]>
+						</ProdMarketingName>
+					</PTPFare>
+				</PTP>
+				<PassengerIndex>
+					<Passenger PassengerID="18571" SliceID="1" ForeignReference="2181958213" OtherForeignReference="Collection Reference: NJR472NT"/>
+				</PassengerIndex>
+				<PaymentIndex/>
+				<Tickets AreIssued="true">
+					<Ticket TicketNumber="6011931" IssueDate="2018-12-19T00:00:00.0Z">
+						<Passengers>
+							<Passenger PassengerID="18571"/>
+						</Passengers>
+					</Ticket>
+				</Tickets>
+				<Remarks>
+					<Remark Target="Confirmation" Text="Tickets are 100% not refundable"/>
+					<Remark Target="Confirmation" Text="Your Ticket Collection Reference is NJR472NT."/>
+					<Remark Target="Confirmation" Text="You will find the Self-service Ticket machine adjacent to the booking office in the main concourse. Please ask a member of Virgin Trains staff if you have problems trying to locate the machine.&lt;BR/&gt;You will find more info about your departure station, including ticket office opening hours, at http://www.nationalrail.co.uk/stations/MAN/details.html"/>
+					<Remark Target="Confirmation" Text="Customers with issues collecting their tickets should contact the station staff whose responsibility it is to make sure they can travel."/>
+					<Remark Target="Confirmation" Text="Please note that this product was supplied through a partnership with The Trainline and thus is subject to their Terms and Condition."/>
+					<Remark Target="Confirmation" Text="The cost of this ticket is 30.3GBP"/>
+					<Remark Target="Confirmation" Text="Follow this hyperlink for your ticket on departure terms and conditions: http://www.acpmarketing.net/downloads/TTL-terms_and_conditions.htm"/>
+				</Remarks>
+			</BookedResource>
+		</BookedResources>
+		<Remarks/>
+		<Payments/>
+		<Fulfillment HandlingMode="Regular">
+			<DeliveryAddress>
+				<AddressLine>67 Avenue Coolbreeze</AddressLine>
+				<CityName>Pointe-Claire</CityName>
+				<PostalCode>H9R 3S6</PostalCode>
+				<StateProv>Quebec</StateProv>
+				<StateProvCode>QC</StateProvCode>
+				<CountryName>CANADA</CountryName>
+				<CountryCode>CA</CountryCode>
+			</DeliveryAddress>
+			<Name>
+				<GivenName>salort</GivenName>
+				<Surname>frederic</Surname>
+			</Name>
+			<PhoneNumber>15142099869</PhoneNumber>
+		</Fulfillment>
+		<Subagent UID="2494" AgentName="frederic/salort" PhoneNumber="15142099869" PayPalCommissionReturn="false" StateProvISO="QC" CountryISO="CA" StreetAddress="67 Avenue Coolbreeze" CityName="Pointe-Claire" StateName="Quebec" CountryName="CANADA" PostalCode="H9R 3S6"/>
+	</ACPRailPNR>
+</ACP_RailBookRS>

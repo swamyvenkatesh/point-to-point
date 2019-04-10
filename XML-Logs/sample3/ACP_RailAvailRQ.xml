@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ACP_RailAvailRQ ResponseType="Native-Availability" xmlns="http://www.acprailinternational.com/API/R2">
+    <POS>
+        <RequestorID>RTG-XML</RequestorID>
+    </POS>
+    <RailAvailInfo Node="Point to Point Tickets">
+        <OriginDestinationSpecifications>
+            <OriginLocation LocationCode="7010720"/>
+            <DestinationLocation LocationCode="7004380"/>
+            <Departure DepartureDate="2018-12-20T08:00:00"/>
+        </OriginDestinationSpecifications>
+        <PassengerSpecifications>
+            <PassengerType Quantity="1" Age="-1"/>
+        </PassengerSpecifications>
+        <FareQualifier/>
+        <ResponsePtPTypes>
+            <ResponsePtPType>TR</ResponsePtPType>
+        </ResponsePtPTypes>
+    </RailAvailInfo>
+</ACP_RailAvailRQ>

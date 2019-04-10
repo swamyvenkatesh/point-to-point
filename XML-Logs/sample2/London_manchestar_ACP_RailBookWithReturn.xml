@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ACP_RailBookRQ xmlns="http://www.acprailinternational.com/API/R2">
+  <POS>
+    <RequestorID>RTG-XML</RequestorID>
+  </POS>
+  <RailBookInfo ContactEmail="" POSReference="">
+    <SelectedOptions>
+      <SelectedOption TicketOption="Etk" IsCreditSale="true" ID="1">
+        <ODFare FareReference="2" Class="First" IsEstimated="false" IsPreBookable="false" TicketingTimeLimit="2018-12-18T23:59:59.0Z" TicketCount="1" CurrencyCode="GBP" ItineraryType="One-Way-Outbound" IncludesProtectionPlan="false" ReservationRequired="true" ProductName="TICKET on DEPARTURE &amp; RESERVATION -ANYTIME via:ANY PERMITTED - Travel is allowed via any permitted route." RouteDescription="ANY PERMITTED - Travel is allowed via any permitted route." FareType="Regular" Magic="B3EB3DE9318B686A47E8D9FFFCA4F733
+789C6D50CB6EC23010BCFB2B523807F949ECDCFC8AD443AB56A1279443205695
+2AC488988A0AF1EF35A1AD00D5DA8335BB3B333BD3A55F7DB87578489660E7B6
+5DEA1BBF0DADEF873C5956A06E9A3BA4DC766D485F76EDDAE5C9F46A7BE143DD
+FD8317F52E22789ECD2058943A4F60FCC88DDFF7E117D67EB36987216AE40922
+33C2C0B33B371999CD1928DDEE33B216CE5D76AB0ABCD407E342DD76B7526517
+E71E4D2489944D1C9F48B39880FA7DB4D4FBDE55E0755FF7A10D5FE7A1B7BE0D
+3F8EEFFC8DC78C74B74ECBE2A21BB3384E8F20E34233C2ADB6B4D0924A6AB065
+8851CEED1C4A6DB4C23A43DAE2025B8518269060820C26C442881502C250C515
+97447355106118911A51418D160662119B1C530515941926310FAE2814585AC4
+B440822240A1657C4EA1660A290421A796A04C1471697CE074024FEDE1CFF532
+451548D77E389F44713C295DD5C3553E69B31ABA311274933C6697E8C7FA069A
+089D3836020000
+" UseAfterTL="2018-12-20" UseByTL="2018-12-19" TravelDate="2018-12-20" PaxUnits="1" PricingOnRequest="false" BookingOnRequest="false" TicketOption="ETK" PassportRequired="false" DateOfBirthRequired="false" PaxNameRequested="true" CntryResidenceRequired="false" NationalityRequired="false" PlaceOfBirthRequired="false" EmailRequired="false" TicketType="TicketAndReser">
+         
+          <PassengerTypePrices>
+            <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="267.00" TSC="0.00" TotalSliceAmount="267.00" SFDetails="#{
+789C538ECE4FCA4A4D2E515488E60ACDCB2C71CE2F2EB152303231D233E002B1
+9D4B8B8A3C8BF39D53AC1494DC9D0294B8824B0B0A7232538B4092AE15C91941
+40E58640C5B1B10084E3179F4B000000
+}">
+              <MixDetails>
+                <PassengerPlaceholder Age="-1"/>
+              </MixDetails>
+            </PassengerMixSlice>
+          </PassengerTypePrices>
+          <TotalPrice Fare="267.00" TSC="0.00" Amount="267.00" Commission="13.35" Net="253.65" ServiceFee="25.0"/>
+          <OriginLocation LocationCode="7000021" Name="London Euston" Country="GB"/>
+          <DestinationLocation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+          <SubComponents/>
+          <IntegratedTotalPrice Fare="267.00" TSC="0.00" Amount="267.00" Commission="13.35" Net="253.65" ServiceFee="25.0"/>
+          <IntegratedPassengerTypePrices>
+            <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="267.00" TSC="0.00" TotalSliceAmount="267.00" SFDetails="#{
+789C538ECE4FCA4A4D2E515488E60ACDCB2C71CE2F2EB152303231D233E002B1
+9D4B8B8A3C8BF39D53AC1494DC9D0294B8824B0B0A7232538B4092AE15C91941
+40E58640C5B1B10084E3179F4B000000
+}">
+              <MixDetails>
+                <PassengerPlaceholder Age="-1"/>
+              </MixDetails>
+            </PassengerMixSlice>
+          </IntegratedPassengerTypePrices>
+          <PossiblePlacePrefs>
+            <PossibleSpecialRequests>
+              <SpecialRequest>Unspecified</SpecialRequest>
+            </PossibleSpecialRequests>
+            <PossibleCompartmentTypes>
+              <CompartmentType>Unspecified</CompartmentType>
+            </PossibleCompartmentTypes>
+            <PossiblePositions>
+              <Position>Unspecified</Position>
+            </PossiblePositions>
+          </PossiblePlacePrefs>
+          <ProdMarketingName>&lt;div id="DisplayName"&gt;TICKET on DEPARTURE &amp; RESERVATION -ANYTIME&lt;/div&gt;</ProdMarketingName>
+          <SalesConditions RefundPolicy="Non-Refundable">
+            <TermsAndConditions MustAcknowledge="true" URL="http://www.acprail.com/railways-terms-and-conditions/TTL-tod-ow-withres-anytime.html"/>
+            <RefundRules>
+              <RefundRule Sequence="1" DateBasis="Issue" WithinDateBasis="P0D" PenaltyRate="100.0" MinimumPenalty="0.0"/>
+            </RefundRules>
+          </SalesConditions>
+        </ODFare>
+        <OriginDestinationOption>
+          <Journey JourneyDuration="PT2H5M" IsSubComponent="false">
+            <OriginLocation LocationCode="7000021" Name="London Euston" Country="GB"/>
+            <DestinationLocation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+            <JourneySegments>
+              <JourneySegment>
+                <TrainSegment DepartureDateTime="2018-12-20T08:00:00" ArrivalDateTime="2018-12-20T10:05:00" TrainNumber="0800" JourneyDuration="PT2H5M" TrainServiceType="Train" CrossBorder="false" OperatorName="ATOC">
+                  <DepartureStation LocationCode="7000021" Name="London Euston" Country="GB"/>
+                  <ArrivalStation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+                  <RailAmenities>
+                    <RailAmenity Name="VT"/>
+                  </RailAmenities>
+                  <ClassCodes/>
+                </TrainSegment>
+              </JourneySegment>
+            </JourneySegments>
+            <FareRPHs>
+              <FareRPH>1</FareRPH>
+              <FareRPH>2</FareRPH>
+              <FareRPH>3</FareRPH>
+              <FareRPH>4</FareRPH>
+            </FareRPHs>
+          </Journey>
+          <PlacePrefs Position="Unspecified" CompartmentType="Unspecified" SpecialRequest="Unspecified"/>
+        </OriginDestinationOption>
+        <PassengerIndex>
+          <Passenger SliceID="1" PassengerID="1"/>
+        </PassengerIndex>
+        <PaymentIndex/>
+        <CountryLists/>
+      
+    </SelectedOption>
+
+      <SelectedOption TicketOption="Etk" IsCreditSale="true" ID="2">
+        <ODFare FareReference="22" Class="Standard" IsEstimated="false" IsPreBookable="false" TicketingTimeLimit="2018-12-18T23:59:59.0Z" TicketCount="1" CurrencyCode="GBP" ItineraryType="Round-Trip" IncludesProtectionPlan="false" ReservationRequired="true" ProductName="OPEN RETURN TICKET on DEPARTURE &amp; RESERVATION -ANYTIME via:ANY PERMITTED - Travel is allowed via any permitted route." RouteDescription="ANY PERMITTED - Travel is allowed via any permitted route." FareType="Regular" Magic="8DAA0C8879E449627FB646A6BB2E4381
+789C6D50CB4EC33010BCEF57047A4EE56762F7E657240E2050CAA9CA216D2C14
+94C655631008F1EFB829421461F9343B3B333B8B4DD83EFB5DBCCA3670F48721
+0F5D38C43E8CD32ADB34D076DD1FA43E0C7DCCEF8FFDCEAFB2C5AFED7588EDF0
+0F5EB5C784D0822E11AC6BB3CAD0B204B50F2F633CC32598B0DFF7D3943C5619
+164BCCE1CE9F868C2F3987DA1F5F936AE5FD691741D3C07DFB667D6CFBE1D2AA
+1E12EFC6269124D925FAB5B2EB6B689FE64863187D030F2FED18FBF87E223D8E
+7DFC4EFC27DF7CCC2C7799B4AECEBEA98B8FC50794421A4E85338E554631C52C
+711C7326842B9032D668624A6C1CA988D398138A68A10B8B287508118D415AA6
+85168A1AA12B2A2DA7CA60269935D22222D35010A69146AA2494242BCD9024CA
+616E24960C03438E8B8221C335D6182151E002978AA7A5F9C1E727DCF66F3FA9
+37396E20DF85E9741215E9E67CDB4EBFFAC9BBED34CC95E08BE6093F573FFF2F
+BFC79D5036020000
+" UseAfterTL="2018-12-22" UseByTL="2018-12-21" TravelDate="2018-12-22" PaxUnits="1" PricingOnRequest="false" BookingOnRequest="false" TicketOption="ETK" PassportRequired="false" DateOfBirthRequired="false" PaxNameRequested="true" CntryResidenceRequired="false" NationalityRequired="false" PlaceOfBirthRequired="false" EmailRequired="false" TicketType="TicketAndReser">
+         
+          <PassengerTypePrices>
+            <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="363.00" TSC="0.70" TotalSliceAmount="363.70" SFDetails="#{
+789C538ECE4FCA4A4D2E515488E60ACDCB2C71CE2F2EB1523036B6D033E002B1
+9D4B8B8A3C8BF39D53AC1494DC9D0294B8824B0B0A7232538B4092AE15C91941
+40E58640C5B1B100861617A54B000000
+}">
+              <MixDetails>
+                <PassengerPlaceholder Age="-1"/>
+              </MixDetails>
+            </PassengerMixSlice>
+          </PassengerTypePrices>
+          <TotalPrice Fare="363.00" TSC="0.70" Amount="363.70" Commission="18.15" Net="345.55" ServiceFee="25.0"/>
+          <OriginLocation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+          <DestinationLocation LocationCode="7000021" Name="London Euston" Country="GB"/>
+          <SubComponents/>
+          <IntegratedTotalPrice Fare="363.00" TSC="0.70" Amount="363.70" Commission="18.15" Net="345.55" ServiceFee="25.0"/>
+          <IntegratedPassengerTypePrices>
+            <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="363.00" TSC="0.70" TotalSliceAmount="363.70" SFDetails="#{
+789C538ECE4FCA4A4D2E515488E60ACDCB2C71CE2F2EB1523036B6D033E002B1
+9D4B8B8A3C8BF39D53AC1494DC9D0294B8824B0B0A7232538B4092AE15C91941
+40E58640C5B1B100861617A54B000000
+}">
+              <MixDetails>
+                <PassengerPlaceholder Age="-1"/>
+              </MixDetails>
+            </PassengerMixSlice>
+          </IntegratedPassengerTypePrices>
+          <PossiblePlacePrefs>
+            <PossibleSpecialRequests>
+              <SpecialRequest>Unspecified</SpecialRequest>
+            </PossibleSpecialRequests>
+            <PossibleCompartmentTypes>
+              <CompartmentType>Unspecified</CompartmentType>
+            </PossibleCompartmentTypes>
+            <PossiblePositions>
+              <Position>Unspecified</Position>
+            </PossiblePositions>
+          </PossiblePlacePrefs>
+          <ProdMarketingName>&lt;div id="DisplayName"&gt;OPEN RETURN TICKET on DEPARTURE &amp; RESERVATION -ANYTIME&lt;/div&gt;</ProdMarketingName>
+          <SalesConditions RefundPolicy="Non-Refundable">
+            <TermsAndConditions MustAcknowledge="true" URL="http://www.acprail.com/railways-terms-and-conditions/TTL-tod-openreturn-withres-anytime.html"/>
+            <RefundRules>
+              <RefundRule Sequence="1" DateBasis="Issue" WithinDateBasis="P0D" PenaltyRate="100.0" MinimumPenalty="0.0"/>
+            </RefundRules>
+          </SalesConditions>
+        </ODFare>
+        <OriginDestinationOption>
+          <Journey JourneyDuration="PT2H6M" IsSubComponent="false">
+            <OriginLocation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+            <DestinationLocation LocationCode="7000021" Name="London Euston" Country="GB"/>
+            <JourneySegments>
+              <JourneySegment>
+                <TrainSegment DepartureDateTime="2018-12-22T08:15:00" ArrivalDateTime="2018-12-22T10:21:00" TrainNumber="0815" JourneyDuration="PT2H6M" TrainServiceType="Train" CrossBorder="false" OperatorName="ATOC">
+                  <DepartureStation LocationCode="7000046" Name="Manchester Piccadilly" Country="GB"/>
+                  <ArrivalStation LocationCode="7000021" Name="London Euston" Country="GB"/>
+                  <RailAmenities>
+                    <RailAmenity Name="VT"/>
+                  </RailAmenities>
+                  <ClassCodes/>
+                </TrainSegment>
+              </JourneySegment>
+            </JourneySegments>
+            <FareRPHs>
+              <FareRPH>21</FareRPH>
+              <FareRPH>22</FareRPH>
+              <FareRPH>23</FareRPH>
+              <FareRPH>24</FareRPH>
+              <FareRPH>25</FareRPH>
+              <FareRPH>26</FareRPH>
+              <FareRPH>27</FareRPH>
+            </FareRPHs>
+          </Journey>
+          <PlacePrefs Position="Unspecified" CompartmentType="Unspecified" SpecialRequest="Unspecified"/>
+        </OriginDestinationOption>
+        <PassengerIndex>
+          <Passenger SliceID="1" PassengerID="1"/>
+        </PassengerIndex>
+        <PaymentIndex/>
+        <CountryLists/>
+
+      </SelectedOption>
+      
+    </SelectedOptions>
+    <Payments/>
+    <Passengers>
+      <Passenger IsLeader="false" YearOfBirth="Year" MonthOfBirth="Month" DayOfBirth="Day" PassportNumber="" PlaceOfBirthCountry="CA" PlaceOfBirthCity="" Nationality="CA" CountryResidence="CA" Age="-1" Surname="1qdqwd" GivenName="Passengersadasd" NamePrefix="Mr" ID="1"/>
+    </Passengers>
+    <Remarks/>
+  </RailBookInfo>
+</ACP_RailBookRQ>
+
+
+----
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ACP_RailBookRS xmlns="http://www.acprailinternational.com/API/R2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.acprailinternational.com/API/R2 ACP_RailBookRS.xsd" Version="1.001" TimeStamp="2018-12-19T03:05:11" Target="Production">
+  <Success/>
+  <ACPRailPNR PNRLocator="DDDA91" DateBooked="2018-12-19T00:00:00.0Z" CurrencyISO="GBP" Gross="630.0" Commission="31.5" Penalties="0.0" CommissionOnPenalties="0.0" TSC="0.7" Net="599.2" Paid="599.2" Due="0.0" Status="Ticketed" IsCreditSale="true" UseNetPayment="false" Version="0" GrossNoITX="630.0" TSCNoITX="0.7">
+    <POSDetails OutletName="ACP Test Outlet GBP"/>
+    <Passengers>
+      <Passenger Age="-1" Surname="1qdqwd" IsLeader="true" ID="18556" GivenName="Passengersadasd" CountryResidence="CA" NamePrefix="Mr" Nationality="CA" PlaceOfBirthCountry="CA"/>
+    </Passengers>
+    <BookedResources>
+      <BookedResource IsActive="true" BalanceDue="0.0" IsSubcomponent="false" Penalty="0.0" ResourceStatus="Confirmed" ID="15435" Booker="RTG-XML" Paid="253.65" CommissionOnPenalty="0.0" GrossFare="267.0" Commission="13.35" TSC="0.0" IsCreditSale="true" PricingOnRequest="false" PricingAccepted="true" BookingOnRequest="false" CancellationOnRequest="false" TicketOption="Etk" ServiceFee="25.0">
+        <PTP>
+          <Journey>
+            <OriginLocation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+            <DestinationLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+            <JourneySegments>
+              <JourneySegment>
+                <TrainSegment SegmentID="16830" DepartureDateTime="2018-12-20T08:00:00.0Z" ArrivalDateTime="2018-12-20T10:05:00.0Z" TrainNumber="0800" JourneyDuration="PT2H5M" TrainServiceType="Train" CrossBorder="false" OperatorName="ATOC">
+                  <DepartureStation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+                  <ArrivalStation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+                  <RailAmenities>
+                    <RailAmenity Name="VT"/>
+                  </RailAmenities>
+                  <Seating>
+                    <Seat PlaceNumber="12" CarNumber="H" PlaceType="Seat | First | Open Coach" PassengerID="18556"/>
+                  </Seating>
+                </TrainSegment>
+              </JourneySegment>
+            </JourneySegments>
+          </Journey>
+          <PTPFare FareReference="1" Class="First" TicketingTimeLimit="2018-12-18T23:59:59.0Z" TicketCount="1" CurrencyCode="GBP" ItineraryType="One-Way" IncludesProtectionPlan="false" ProductName="TICKET on DEPARTURE &amp; RESERVATION -ANYTIME via:ANY PERMITTED - Travel is allowed via any permitted route." FareType="Regular" UseAfterTL="2018-12-20" UseByTL="2018-12-19" RouteDescription="via:ANY PERMITTED - Travel is allowed via any permitted route." PaxNameRequested="true" Magic="123" TravelDate="2018-12-20" CommissionGroup="24">
+            <PassengerTypePrices>
+              <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="267.0" TSC="0.0" TotalSliceAmount="267.0" UnitServiceFee="25" TotalServiceFee="25"/>
+            </PassengerTypePrices>
+            <TotalPrice Fare="267.0" TSC="0.0" Amount="267.0" Commission="13.35" Net="253.65" ServiceFee="25.0"/>
+            <OriginLocation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+            <DestinationLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+            <SubComponents/>
+            <SalesConditions RefundPolicy="Non-Refundable">
+              <TermsAndConditions MustAcknowledge="true" URL="http://www.acprail.com/railways-terms-and-conditions/TTL-tod-ow-withres-anytime.html"/>
+              <RefundRules>
+                <RefundRule Sequence="1" DateBasis="Issue" WithinDateBasis="P0D" PenaltyRate="100.0" MinimumPenalty="0.0"/>
+              </RefundRules>
+            </SalesConditions>
+            <ProdMarketingName>
+              <![CDATA[<div id="DisplayName">TICKET on DEPARTURE & RESERVATION -ANYTIME</div>]]>
+            </ProdMarketingName>
+          </PTPFare>
+        </PTP>
+        <PassengerIndex>
+          <Passenger PassengerID="18556" SliceID="1" ForeignReference="2181957817" OtherForeignReference="Collection Reference: NN53JB3H"/>
+        </PassengerIndex>
+        <PaymentIndex/>
+        <Tickets AreIssued="true">
+          <Ticket TicketNumber="6011919" IssueDate="2018-12-19T00:00:00.0Z">
+            <Passengers>
+              <Passenger PassengerID="18556"/>
+            </Passengers>
+          </Ticket>
+        </Tickets>
+        <Remarks>
+          <Remark Target="Confirmation" Text="Tickets are 100% not refundable"/>
+          <Remark Target="Confirmation" Text="Your Ticket Collection Reference is NN53JB3H."/>
+          <Remark Target="Confirmation" Text="You will find the self-service machines located within the station concourse. Please ask a member of Virgin Trains staff if you have problems trying to locate the machines.&lt;BR/&gt;You will find more info about your departure station, including ticket office opening hours, at http://www.nationalrail.co.uk/stations/EUS/details.html"/>
+          <Remark Target="Confirmation" Text="Customers with issues collecting their tickets should contact the station staff whose responsibility it is to make sure they can travel."/>
+          <Remark Target="Confirmation" Text="Please note that this product was supplied through a partnership with The Trainline and thus is subject to their Terms and Condition."/>
+          <Remark Target="Confirmation" Text="The cost of this ticket is 242.0GBP"/>
+          <Remark Target="Confirmation" Text="Follow this hyperlink for your ticket on departure terms and conditions: http://www.acpmarketing.net/downloads/TTL-terms_and_conditions.htm"/>
+        </Remarks>
+      </BookedResource>
+      <BookedResource IsActive="true" BalanceDue="0.0" IsSubcomponent="false" Penalty="0.0" ResourceStatus="Confirmed" ID="15436" Booker="RTG-XML" Paid="345.55" CommissionOnPenalty="0.0" GrossFare="363.0" Commission="18.15" TSC="0.7" IsCreditSale="true" PricingOnRequest="false" PricingAccepted="true" BookingOnRequest="false" CancellationOnRequest="false" TicketOption="Etk" ServiceFee="25.7">
+        <PTP>
+          <Journey>
+            <OriginLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+            <DestinationLocation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+            <JourneySegments>
+              <JourneySegment>
+                <TrainSegment SegmentID="16831" DepartureDateTime="2018-12-22T08:15:00.0Z" ArrivalDateTime="2018-12-22T10:21:00.0Z" TrainNumber="0815" JourneyDuration="PT2H6M" TrainServiceType="Train" CrossBorder="false" OperatorName="ATOC">
+                  <DepartureStation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+                  <ArrivalStation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+                  <RailAmenities>
+                    <RailAmenity Name="VT"/>
+                  </RailAmenities>
+                  <Seating>
+                    <Seat PlaceNumber="75" CarNumber="E" PlaceType="Seat | Standard | Open Coach" PassengerID="18556"/>
+                  </Seating>
+                </TrainSegment>
+              </JourneySegment>
+            </JourneySegments>
+          </Journey>
+          <PTPFare FareReference="1" Class="Standard" TicketingTimeLimit="2018-12-18T23:59:59.0Z" TicketCount="1" CurrencyCode="GBP" ItineraryType="Round-Trip" IncludesProtectionPlan="false" ProductName="OPEN RETURN TICKET on DEPARTURE &amp; RESERVATION -ANYTIME via:ANY PERMITTED - Travel is allowed via any permitted route." FareType="Regular" UseAfterTL="2018-12-22" UseByTL="2018-12-21" RouteDescription="via:ANY PERMITTED - Travel is allowed via any permitted route." PaxNameRequested="true" Magic="123" TravelDate="2018-12-22" CommissionGroup="24">
+            <PassengerTypePrices>
+              <PassengerMixSlice SliceID="1" Code="ADT" Quantity="1" UnitPrice="363.0" TSC="0.7" TotalSliceAmount="363.7" UnitServiceFee="25.7" TotalServiceFee="25.7"/>
+            </PassengerTypePrices>
+            <TotalPrice Fare="363.0" TSC="0.7" Amount="363.7" Commission="18.15" Net="345.55" ServiceFee="25.7"/>
+            <OriginLocation LocationCode="7000046" CodeContext="UIC" Name="Manchester Piccadilly" Country="GB"/>
+            <DestinationLocation LocationCode="7000021" CodeContext="UIC" Name="London Euston" Country="GB"/>
+            <SubComponents/>
+            <SalesConditions RefundPolicy="Non-Refundable">
+              <TermsAndConditions MustAcknowledge="true" URL="http://www.acprail.com/railways-terms-and-conditions/TTL-tod-openreturn-withres-anytime.html"/>
+              <RefundRules>
+                <RefundRule Sequence="1" DateBasis="Issue" WithinDateBasis="P0D" PenaltyRate="100.0" MinimumPenalty="0.0"/>
+              </RefundRules>
+            </SalesConditions>
+            <ProdMarketingName>
+              <![CDATA[<div id="DisplayName">OPEN RETURN TICKET on DEPARTURE & RESERVATION -ANYTIME</div>]]>
+            </ProdMarketingName>
+          </PTPFare>
+        </PTP>
+        <PassengerIndex>
+          <Passenger PassengerID="18556" SliceID="1" ForeignReference="2181957818" OtherForeignReference="Collection Reference: TN4GBT7K"/>
+        </PassengerIndex>
+        <PaymentIndex/>
+        <Tickets AreIssued="true">
+          <Ticket TicketNumber="6011920" IssueDate="2018-12-19T00:00:00.0Z">
+            <Passengers>
+              <Passenger PassengerID="18556"/>
+            </Passengers>
+          </Ticket>
+        </Tickets>
+        <Remarks>
+          <Remark Target="Confirmation" Text="Your Ticket Collection Reference is TN4GBT7K."/>
+          <Remark Target="Confirmation" Text="You will find the Self-service Ticket machine adjacent to the booking office in the main concourse. Please ask a member of Virgin Trains staff if you have problems trying to locate the machine.&lt;BR/&gt;You will find more info about your departure station, including ticket office opening hours, at http://www.nationalrail.co.uk/stations/MAN/details.html"/>
+          <Remark Target="Confirmation" Text="Customers with issues collecting their tickets should contact the station staff whose responsibility it is to make sure they can travel."/>
+          <Remark Target="Confirmation" Text="Please note that this product was supplied through a partnership with The Trainline and thus is subject to their Terms and Condition."/>
+          <Remark Target="Confirmation" Text="The cost of this ticket is 338.0GBP"/>
+          <Remark Target="Confirmation" Text="Follow this hyperlink for your ticket on departure terms and conditions: http://www.acpmarketing.net/downloads/TTL-terms_and_conditions.htm"/>
+        </Remarks>
+      </BookedResource>
+    </BookedResources>
+    <Remarks/>
+    <Payments/>
+  </ACPRailPNR>
+</ACP_RailBookRS>
